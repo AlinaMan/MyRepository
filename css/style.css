@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../css/fonts/RobotoRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("../css/fonts/RobotoMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../css/fonts/RobotoBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GothamProBold";
+  src: url("../css/fonts/Gotham Pro Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PFDinTextCompPro-Medium";
+  src: url("../css/fonts/PFDinTextCompPro-Medium.ttf") format("truetype");
+}
+
+.s1-bg {
+	background: url('../images/s1-bg.jpg') no-repeat left top;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+.s2 {
+	padding: 80px 0;
+}
+
+.s3 {
+	background-color: rgba(28,76,110,0.1);
+	padding: 35px 0;
+}
+
+.nav-item {
+	color: #fff !important;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+.btn-pink {
+	width: 150px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #fff;
+	padding: 7px 0;
+	margin: .5rem 0;
+	background-color: #ef1246;
+	border-radius: 3px;
+	transition: all 1s ease-out 0.1s;
+}
+
+.btn-pink2 {
+	width: 220px;
+	font-size: 18px;
+	color: #fff !important;
+	padding: 12px 0;
+	background-color: #ef1246;
+	border-radius: 3px;
+	transition: all 1s ease-out 0.1s;
+}
+
+.btn-red {
+	width: 222px;
+	background: url('../images/btn-red.png') no-repeat top center;
+	font-size: 29px;
+	color: #481a1a;
+	padding: 6px 0;
+	text-transform: uppercase;
+	transition: color 1s ease-out 0.1s;
+}
+
+.btn-yellow {
+	width: 200px;
+	font-size: 18px;
+	color: #000 !important;
+	padding: 12px 0;
+	background-color: #f4ba2e;
+	border-radius: 3px;
+	transition: all 1s ease-out 0.1s;
+}
+
+.nav-item:hover {
+	text-decoration: underline;
+}
+
+.btn-pink:hover {
+	background-color: #fff;
+	color: #ef1246 !important;
+	text-decoration: none;
+}
+
+.btn-pink2:hover {
+	background-color: #f41d37;
+	color: #000 !important;
+}
+
+.btn-red:hover {
+	color: #000;
+}
+
+.btn-yellow:hover {
+	background-color: #FDCE35;
+	color: #fff !important;
+}
+
+.promo-code {
+	background-color: #bce3ff;
+	border-radius: 3px;
+	padding: 3.5px 2.5px;
+}
+
+.f16, .f24, .nav-item  {
+	font-family: 'RobotoRegular';
+}
+
+.btn-pink, .btn-yellow, .btn-pink2, .f18, .s3 .f16 {
+	font-family: "RobotoMedium";
+}
+
+.f19, .btn-red {
+	font-family: "PFDinTextCompPro-Medium";
+}
+
+.f20, .f22, .pink {
+	font-family: "RobotoBold";
+}
+
+.f13 {
+	font-size: 13px;
+	line-height: 22px;
+	color: rgba(0,0,0,0.64);
+}
+
+.f16 {
+	font-size: 16px;
+}
+
+.s3 .f16 {
+	line-height: 32px;
+	color: #35719d;
+	text-decoration: underline;
+}
+
+.f18 {
+	font-size: 18px;
+}
+
+.f19 {
+	font-size: 19.24px;
+	color: #1b4b6d;
+	text-transform: uppercase;
+}
+
+.f20 {
+	font-size: 20px;
+	color: #217fc1;
+}
+
+.f22 {
+	font-size: 22px;
+}
+
+.f24 {
+	font-size: 24px;
+}
+
+.f80 {
+	font-family: "GothamProBold";
+	font-size: 80px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.mt-14 {
+	margin-top: 14px;
+}
+
+.mt-105 {
+	margin-top: 105px;
+}
+
+.mb-75 {
+	margin-bottom: 75px;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #000;
+}
+
+.pink {
+	color: #ef1246;
+}
+
+footer {
+    padding: 25px 0 9px 0;
+}
+
+footer img {
+	margin-bottom: 1rem;
+}
+
+.show-text {
+	display: none;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: #fff;
+}
+
+@media (max-width: 767px) {
+	.f80 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 575px) {
+	.f80 {
+		font-size: 45px;
+	}
+
+	.f24 {
+	    font-size: 20px;
+	}
+
+	.btn-red {
+		font-size: 24px;
+	}
+
+	.s2 {
+	    padding: 50px 0;
+	}
+
+	.mb-75 {
+	    margin-bottom: 40px;
+	}
+
+	.mb-30 {
+		margin-bottom: 35px;
+	}
+}
+
+@media (max-width: 425px) {
+	.text-xs-left {
+		text-align: left !important;
+	}
+
+	.col-xxs-5 {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 0 41.666667%;
+	    flex: 0 0 41.666667%;
+	    max-width: 41.666667%;
+	}
+
+	.col-xxs-7 {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 58.333333%;
+	    flex: 0 0 58.333333%;
+	    max-width: 58.333333%;
+	}
+
+	.mt-105 {
+	    margin-top: 70px;
+	}
+}
